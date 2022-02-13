@@ -1,0 +1,59 @@
+*{
+    
+    overflow: hidden;
+}
+#card{
+    
+    text-align: center;
+    height: 450px;
+    width: 300px;
+    background-color:rgba(255, 255, 255, .5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    
+}
+#container{
+    display: flex;
+   align-items: center;
+    justify-content:center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbG8ZKPsTwlXjZDpA8Zy2eio5OMFsLI0O-tQ&usqp=CAU');
+    width: 100vw;
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+.information{
+    background-color: rgb(248, 248, 248);
+    height: 350px;
+    width: 260px;
+    margin-top: 10px;
+   
+   
+}
+form{
+    background-color: rgb(248, 248, 248);
+    height: 50px;
+    width: 260px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+form input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+#temprature{
+    font-size: 3.5rem;
+}
