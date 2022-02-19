@@ -14,7 +14,6 @@ let ip=document.getElementById('search')
 cityName.style.textTransform.toUpperCase
 ip.addEventListener('keypress',(event)=>{
   if(event.keyCode==13){
-    console.log(ip.value)
     event.preventDefault()
     wetherReport(ip.value)
   }
@@ -28,7 +27,6 @@ function wetherReport(city){
 }
 
 function showReport(whether){
-  console.log(whether);
   temprature.innerHTML=`${whether.currentConditions.temp} &deg F`;
   minTemp.innerHTML=`${whether.days[0].tempmin} &deg F/`
   maxTemp.innerHTML=`${whether.days[0].tempmax} &deg F`
